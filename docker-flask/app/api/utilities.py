@@ -9,6 +9,7 @@ lemmatizer = WordNetLemmatizer()
 # grouping together the inflected forms ("better" -> "good")
 
 
+
 with open('models/pipeline.pickle', 'rb') as f:
     loaded_pipe = pickle.load(f)
 
